@@ -44,7 +44,6 @@ public class Calculator {
 	    	  System.out.println("Division is is : "+(a/b));
 	      }
 	      else{
-	    	  // i just want to implement final keyword, object, method in same program so i did it in else part
 	    	  System.out.println("Area of circle");
 	    	  System.out.println("Enter raduis");
 	    	  
