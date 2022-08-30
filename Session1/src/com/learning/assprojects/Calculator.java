@@ -6,7 +6,7 @@ public class Calculator {
 	public static void main(String ar[])
 	{
 		
-	  int a=0,b=0;
+	    int a=0,b=0;
 		char op;
 		
 		
