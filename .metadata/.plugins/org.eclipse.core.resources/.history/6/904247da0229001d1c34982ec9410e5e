@@ -13,14 +13,6 @@ public class PassingMarks {
 		int n=sc.nextInt();
 		
 		
-		if(n>35)
-		{
-			System.out.println("Passed! Congrates");
-		}
-		else{
-			System.out.println("Fail ! Try next time good luck");
-		}
-		
 		
 	}
 }
