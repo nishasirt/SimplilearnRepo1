@@ -1,0 +1,9 @@
+package com.learning.practicesession1;
+
+public class PrintEvenNo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
