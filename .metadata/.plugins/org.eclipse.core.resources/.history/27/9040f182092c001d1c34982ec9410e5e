@@ -1,0 +1,14 @@
+package com.learning.string;
+
+public class StringDemo {
+	
+	String s1="hello world";
+	String s2="hello world";
+	
+	String s3=new String("Hello world");
+	String s4=new String("Hello world");
+	     
+	
+	
+
+}
