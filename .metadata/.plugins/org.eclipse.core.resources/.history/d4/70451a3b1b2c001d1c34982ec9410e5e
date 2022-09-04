@@ -1,0 +1,28 @@
+package com.learning.collectionset;
+
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+	public static void main(String[] args) {
+		// sorted order maintain
+		Set<String>  hs=new TreeSet<>();
+		hs.add("john");
+		hs.add("max");
+		hs.add("john");
+		hs.add("alex");
+		hs.add("nisha");
+		
+		System.out.println(hs);
+		
+		hs.remove("john");
+		System.out.println(hs);
+		
+		//contain method
+		//Ierator
+		//size
+		
+		
+	}
+}
