@@ -1,7 +1,0 @@
-package com.learning.inheritence;
-
-public class TestBuildingClass {
-  public static void main(String[] args) {
-	BuildingInterface bi=new M
-}
-}

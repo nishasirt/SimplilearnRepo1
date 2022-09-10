@@ -1,0 +1,20 @@
+package com.learn.revisionmethod;
+
+import java.util.Scanner;
+
+public class Assignment4 {
+	
+	
+	 int wordCount(String statment){
+		 
+		 
+		 return 0;
+	 }
+	
+	public static void main(String[] args) {
+		
+		Scanner sc =new Scanner(System.in);
+		
+	}
+
+}
