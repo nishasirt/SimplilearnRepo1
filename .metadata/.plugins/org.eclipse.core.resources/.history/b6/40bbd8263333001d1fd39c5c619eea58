@@ -38,7 +38,6 @@ public class ArrayListDemo {
 		
 		while(ii.hasNext()){
 			
-			
 			System.out.println(ii.next());
 		}
 	}

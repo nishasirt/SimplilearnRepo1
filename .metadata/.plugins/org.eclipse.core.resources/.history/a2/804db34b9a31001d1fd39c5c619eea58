@@ -10,11 +10,6 @@ public class Assignment4 {
 
 		return word.length;
 	}
-	
-	public String toString(){
-		
-		return "hello java";
-	}
 
 	public static void main(String[] args) {
 
@@ -27,8 +22,6 @@ public class Assignment4 {
 		Assignment4 assignment4=new Assignment4();
 		
 		System.out.println("word count is"+assignment4.wordCount(s));
-		
-		System.out.println(assignment4);
 
 	}
 

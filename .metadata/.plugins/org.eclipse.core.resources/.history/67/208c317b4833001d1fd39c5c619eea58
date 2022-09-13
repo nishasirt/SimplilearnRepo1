@@ -1,0 +1,25 @@
+package com.learn.arraylistprigm;
+
+import java.util.ArrayList;
+
+public class SwapElementArrayList {
+	
+	public static void main(String[] args) {
+		
+
+		ArrayList<String> arrCol=new ArrayList<>();
+		arrCol.add("red");
+		arrCol.add("green");
+		arrCol.add("Yellow");
+		arrCol.add("white");
+		arrCol.add("black");
+		arrCol.add(0, "Pink");
+		System.out.println(arrCol);
+		
+		
+		System.out.println(arrCol);
+		
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.learn.arraylistprigm;
+
+public class TrimSizeArrayList {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
