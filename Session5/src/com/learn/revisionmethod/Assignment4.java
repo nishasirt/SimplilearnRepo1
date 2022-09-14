@@ -9,7 +9,7 @@ public class Assignment4 {
 		String[] word = statment.split("\\s");
 
 		return word.length;
-	}
+	   }
 	
 	public String toString(){
 		
