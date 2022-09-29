@@ -1,0 +1,25 @@
+package com.learn.thread;
+
+class Abc implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void odd() {
+
+	}
+
+	public void even() {
+
+	}
+
+}
+
+public class UsingRunnable {
+	public static void main(String[] args) {
+
+	}
+}

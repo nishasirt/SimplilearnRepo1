@@ -6,7 +6,8 @@ import java.util.Map;
 
 public class HashMapDemo {
 	public static void main(String[] args) {
-		
+		//not maintain insertion order
+		//not thread safe
 		HashMap<Integer, String> hasmap=new HashMap<>();
 		
 		hasmap.put(1, "jack");
@@ -14,6 +15,8 @@ public class HashMapDemo {
 		hasmap.put(2, "nisha");
 		hasmap.put(5, "shanu");
 		hasmap.put(3, "raju");
+		hasmap.put(null, null);
+		hasmap.put(null, "kk");
 		
 		System.out.println(hasmap);
 		System.out.println("contain key 6"+hasmap.containsKey(5));

@@ -7,6 +7,7 @@ import java.util.Map;
 
 public class HashTableDemo {
 public static void main(String[] args) {
+	// thread safe
 		
 		Map<Integer, String> hasmap=new Hashtable();
 		
@@ -15,7 +16,8 @@ public static void main(String[] args) {
 		hasmap.put(2, "nisha");
 		hasmap.put(5, "shanu");
 		hasmap.put(3, "raju");
-		
+		//hasmap.put(null, null);//not allow null key or valuue
+		//hasmap.put(null, "kk");
 		System.out.println(hasmap);
 		System.out.println("contain key 6"+hasmap.containsKey(5));
 		

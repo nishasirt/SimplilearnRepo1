@@ -1,0 +1,5 @@
+package com.wipro.eb.service;
+
+public class ConnectionService {
+
+}

@@ -1,0 +1,21 @@
+package com.learn.exceptionhandling;
+
+
+
+class ATM
+{
+	void checkBalance(int accBalance,int withdrawamt)
+	{
+		
+		
+		
+	}
+	
+	
+}
+
+public class AtmClass {
+     public static void main(String[] args) {
+		
+	}
+}

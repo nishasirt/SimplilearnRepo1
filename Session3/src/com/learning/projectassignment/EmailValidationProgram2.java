@@ -10,6 +10,7 @@ public class EmailValidationProgram2 {
 
 		String[] emailList = { "nisha@gmail.com", "Shanu.ch@Yahoo.com", "rahul.rahangdale3@gmail.com",
 				"yash@rediffmail.com", "abcd@gmail.com", "laddu.om@idbi.in", "xyz@gmail.com", "lokesh.ch86@gamil.com" };
+		
 
 		String flag = null;
 		// Taking email from user
@@ -20,30 +21,29 @@ public class EmailValidationProgram2 {
 
 			String email = sc.next();
 
-				for (int i = 0; i < emailList.length; i++) {
+			for (int i = 0; i < emailList.length; i++) {
 
-					if (emailList[i].equalsIgnoreCase(email)) {
+				if (emailList[i].equalsIgnoreCase(email)) {
 
-						flag = "yes";
-
-						break;
-					} else {
-
-						flag = "no";
-
-					}
-
-				}
-
-				if (flag.equalsIgnoreCase("yes")) {
-					System.out.println("Email id is in the list");
+					flag = "yes";
 
 					break;
 				} else {
-					System.out.println("Email id is not is in the list");
+
+					flag = "no";
+
 				}
 
-			
+			}
+
+			if (flag.equalsIgnoreCase("yes")) {
+				System.out.println("Email id is in the list");
+
+				break;
+			} else {
+				System.out.println("Email id is not is in the list");
+			}
+
 		}
 
 	}

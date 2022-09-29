@@ -1,0 +1,13 @@
+package com.learn.exceptionhandling;
+
+public class ArreayIndexOut {
+	
+	public static void main(String[] args) {
+		int[] arr=new int[5];
+		
+		
+		arr[8]=55;
+		
+	}
+
+}

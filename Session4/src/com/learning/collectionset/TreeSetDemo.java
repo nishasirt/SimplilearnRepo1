@@ -14,6 +14,7 @@ public class TreeSetDemo {
 		hs.add("max");
 		hs.add("john");
 		hs.add("alex");
+		hs.add(null);//not ALLOw
 		hs.add("nisha");
 		
 		System.out.println(hs);

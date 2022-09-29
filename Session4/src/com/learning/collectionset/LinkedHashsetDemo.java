@@ -12,6 +12,7 @@ public class LinkedHashsetDemo {
 		hs.add("max");
 		hs.add("john");
 		hs.add("alex");
+		hs.add(null);//ALLOw
 		hs.add("nisha");
 		
 		System.out.println(hs);

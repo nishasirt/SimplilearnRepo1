@@ -18,6 +18,7 @@ public class ArrayListDemo {
 		list.add(45);
 		list.add(33);
 		list.add(23);
+		list.add(null);//ALLOw
 		list.add(33);
 		
 		

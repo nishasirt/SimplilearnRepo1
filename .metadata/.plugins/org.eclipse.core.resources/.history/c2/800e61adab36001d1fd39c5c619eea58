@@ -1,0 +1,40 @@
+package com.learn.thread;
+
+class Abc implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+             odd();
+             even();
+	}
+
+	public void odd() {
+		for (int i = 1; i < 10; i++) {
+			System.out.println("odd"+i);
+		}
+
+	}
+
+	public void even() {
+		for (int i = 1; i < 10; i++) {
+			System.out.println("even"+i);
+		}
+	}
+
+}
+
+public class UsingRunnable {
+	public static void main(String[] args) {
+		
+		  Abc abc=new Abc();
+		  Thread t=new Thread(abc);
+		  t.start();
+		  
+		  Thread t2 =new Thread(abc);
+		  t2.start();
+		  
+		  
+
+	}
+}
