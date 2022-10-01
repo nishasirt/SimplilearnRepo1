@@ -13,35 +13,35 @@ public class Commercial extends Connection {
 	public float computeBill() {
 		// TODO Auto-generated method stub
 
-		int unitconsumed = currentReading - previousReading;
-		float electribill = 0;
+		 float amount=0;
+	   	 int consumed=currentReading-previousReading;
+	   	 if(consumed<=50) {
+	   		 amount=consumed*slabs[0];
+	   	 }
+	   	 else if(consumed>50 && consumed<=100) {
+	   		 amount=50*slabs[0]+(consumed-50)*slabs[1];
+	   		 
+	   	 }
+	   	 else {
+	   	   amount=50*slabs[0]+50*slabs[1]+(consumed-100)*slabs[2];
+	   		 
+	   	 }
+	   	 //amount-766
+	   	 if(amount>=10000) {
+	   		 amount=amount+(float)(amount*0.09);
+	   	 }
+	   	 else if(amount>=5000) {
+	   		 amount=amount+(float)(amount*0.06);
+	   	 }
+	   	 else {
+	   		 amount=amount+(float)(amount*0.02);
+	   		                  	//float *0.02(double)
+	   	 }
+	   	 
+	   	 return amount;
+	   	 
+	   	 
 
-		if (unitconsumed <= 50) {
-			finalamt = unitconsumed * slabs[0];
-
-		} else if (unitconsumed > 50 && unitconsumed <= 100) {
-
-			finalamt = 50 * slabs[0] + (unitconsumed - 50) * slabs[1];
-		} else {
-			finalamt = 50 * slabs[0] + 50 * slabs[1] + (unitconsumed - 100) * slabs[2];
-		}
-
-		if (finalamt >= 10000) {
-
-			float ed = (float) (finalamt * 0.09);
-			finalamt = finalamt + ed;
-		}
-		else if (finalamt >= 5000&&finalamt<10000) {
-
-			float ed = (float) (finalamt * 0.06);
-			electribill = finalamt + ed;
-		}else {
-			float ed = (float) (finalamt * 0.02);
-			electribill = finalamt + ed;
-		}
-		
-		
-		return electribill;
 	}
 
 }
