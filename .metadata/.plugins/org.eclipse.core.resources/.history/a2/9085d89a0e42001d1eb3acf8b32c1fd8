@@ -1,0 +1,15 @@
+package com.learn.datastructure;
+
+import java.util.Arrays;
+
+public class ArraySot {
+	public static void main(String[] args) {
+		
+		int[] arr={55,48,22,36,99,12};
+		Arrays.sort(arr);
+		System.out.println(arr[arr.length-2]);
+		
+		
+	}
+
+}

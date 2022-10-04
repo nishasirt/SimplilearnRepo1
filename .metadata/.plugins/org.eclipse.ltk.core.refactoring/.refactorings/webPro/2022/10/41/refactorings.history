@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.lrarn.servlets&apos; to &apos;com.learn.servlets&apos;&#x0D;&#x0A;- Original project: &apos;webPro&apos;&#x0D;&#x0A;- Original element: &apos;webPro/src/com.lrarn.servlets&apos;&#x0D;&#x0A;- Renamed element: &apos;webPro/src/com.learn.servlets&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.lrarn.servlets&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.lrarn.servlets" name="com.learn.servlets" qualified="false" references="true" stamp="1664875856480" textual="false" version="1.0"/>
+</session>
