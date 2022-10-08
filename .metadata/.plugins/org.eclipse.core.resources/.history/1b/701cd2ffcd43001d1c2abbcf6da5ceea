@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="MyServlet" method="get">
+
+<button  type="submit"  value ="ok get"></button>
+</form>
+<br/>
+
+<form action="MyServlet" method="get">
+
+<button  type="submit"  value ="ok get"></button>
+</form>
+</body>
+</html>

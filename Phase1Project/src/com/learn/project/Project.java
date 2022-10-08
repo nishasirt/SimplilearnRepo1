@@ -31,11 +31,15 @@ public class Project {
 				break;
 
 			case 2:
+				boolean z=true;
+				while(z){
 				System.out.println("Enter SubMenu \n 2.1 Add\n 2.2 Delete\n 2.3 Search\n 2.4 Exit ");
 				String j = sc.next();
 				switch (j) {
 				case "2.1":
-
+					
+					
+                     
 					System.out.println("enter file name in dir " + filePath);
 					String fileName = sc.next();
 
@@ -96,16 +100,19 @@ public class Project {
 					break;
 
 				case "2.4":
-
+					
+                      z=false;
+                      
+                      
 					break;
 
 				default:
 					System.out.println("SubMenu Option is not aviable");
 					break;
 				}
-
+				}
+		
 				break;
-
 			case 3:
 				System.out.println("Program End....");
 				System.exit(0);
