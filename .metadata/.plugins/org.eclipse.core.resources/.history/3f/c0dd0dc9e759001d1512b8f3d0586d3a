@@ -1,0 +1,30 @@
+package com.learn.dao;
+
+import com.learn.bean.Employee;
+
+// CRUD operation
+
+/*
+
+Statement of SQL            -     CRUD
+Execute the statement
+Close the connection
+
+ * */
+
+public class EmployeeDAO {
+	
+	
+	public int insert(Employee e){
+		
+		
+		
+		
+		
+		
+		return 0;
+		
+	}
+	
+
+}

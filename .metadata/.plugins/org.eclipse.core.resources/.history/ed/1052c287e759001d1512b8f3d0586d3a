@@ -1,0 +1,16 @@
+package com.learn.dao;
+// CRUD operation
+public class EmployeeDAO {
+	
+	
+	public int insert(){
+		
+		
+		
+		
+		return 0;
+		
+	}
+	
+
+}

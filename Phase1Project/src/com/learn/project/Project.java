@@ -5,13 +5,13 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Project {
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException  {
 		Project obj  = new Project();
 		obj .lockMe();
 
 	}
 
-	public void lockMe() throws IOException {
+	public void lockMe() throws IOException  {
 		Scanner sc = new Scanner(System.in);
 
 		while (true) {
@@ -102,7 +102,7 @@ public class Project {
 				case "2.4":
 					
                       z=false;
-                      
+                      System.out.println("out from submenu");
                       
 					break;
 
@@ -121,6 +121,7 @@ public class Project {
 
 			default:
 				System.out.println("Menu Option is not aviable");
+				
 				break;
 			}
 

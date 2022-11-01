@@ -1,7 +1,0 @@
-package com.learn.project;
-
-public class FileIOAssesment {
-public static void main(String[] args) {
-	
-}
-}
