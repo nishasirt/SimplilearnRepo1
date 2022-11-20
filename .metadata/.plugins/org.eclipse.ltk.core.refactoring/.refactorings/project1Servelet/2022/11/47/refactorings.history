@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;updatestudent.html&apos; to &apos;WebContent&apos;&#x0D;&#x0A;- Original project: &apos;project1Servelet&apos;&#x0D;&#x0A;- Destination element: &apos;WebContent&apos;&#x0D;&#x0A;- Original element: &apos;updatestudent.html&apos;" description="Copy file" element1="WebContent/updatestudent.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1668310897586" target="/CRUDServletEx/WebContent" units="0" version="1.0"/>
+</session>

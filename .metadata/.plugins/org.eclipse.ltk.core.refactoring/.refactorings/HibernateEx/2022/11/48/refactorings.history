@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Employii.java&apos; to &apos;HibernateEx/src/com.ex.pojo&apos;&#x0D;&#x0A;- Original project: &apos;HibernateEx&apos;&#x0D;&#x0A;- Destination element: &apos;HibernateEx/src/com.ex.pojo&apos;&#x0D;&#x0A;- Original element: &apos;com.ex.main.Employii.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.ex.pojo" element1="/src&lt;com.ex.main{Employii.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1668925747145" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,43 @@
+<%@page import="com.learn.dao.UserDao"%>
+<%@page import="com.learn.bean.User"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<%
+
+User u=new User();
+UserDao dao=new UserDao();
+  System.out.print("data is"+request.getParameter("id"));
+
+int r=0;
+
+if(r>0)
+{
+	
+	out.print("data updated sucessfully");
+	
+	
+	
+	
+}
+else{
+	out.print("data updated fail");
+	
+}
+
+
+
+
+
+
+%>
+
+</body>
+</html>

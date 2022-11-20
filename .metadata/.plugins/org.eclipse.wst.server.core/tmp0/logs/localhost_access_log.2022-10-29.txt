@@ -1,0 +1,4 @@
+127.0.0.1 - - [29/Oct/2022:10:08:31 +0530] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [29/Oct/2022:10:08:33 +0530] "GET /HelloWeb1/index.html HTTP/1.1" 200 408
+0:0:0:0:0:0:0:1 - - [29/Oct/2022:10:08:46 +0530] "GET /HelloWeb1/MyServlet?fname=nisha HTTP/1.1" 200 15
+0:0:0:0:0:0:0:1 - - [29/Oct/2022:10:08:58 +0530] "POST /HelloWeb1/MyServlet HTTP/1.1" 200 26

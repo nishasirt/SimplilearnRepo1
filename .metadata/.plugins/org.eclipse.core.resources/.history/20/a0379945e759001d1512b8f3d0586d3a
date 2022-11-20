@@ -1,7 +1,0 @@
-package com.learn.dao;
-// CRUD operation
-public class EmployeeDAO {
-	
-	
-
-}
