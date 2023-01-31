@@ -16,9 +16,11 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.shoe.sporty.dao.CategoryDao;
+import com.shoe.sporty.dao.OrderedShoeDao;
 import com.shoe.sporty.dao.Shoedao;
 import com.shoe.sporty.pojo.Category;
 import com.shoe.sporty.pojo.Customerr;
+import com.shoe.sporty.pojo.OrderredShoe;
 import com.shoe.sporty.pojo.Shoe;
 
 @Controller
@@ -29,6 +31,9 @@ public class ShoeController {
 	
 	@Autowired
 	CategoryDao dao2;
+	
+	@Autowired
+	OrderedShoeDao dao3;
 	
 	@RequestMapping("/insertshoe")
 	public ModelAndView addShoe(HttpServletRequest request,HttpServletResponse res) throws IllegalStateException, IOException {
@@ -55,8 +60,9 @@ public class ShoeController {
 		
 		if(sh!=null) {
 			 List<Shoe> list=dao.getAll();
-		    	
+		    	List<OrderredShoe> lst1=dao3.getAllOrder();
 		    	mv.addObject("list", list);
+		    	mv.addObject("orderlist", lst1);
 			mv.setViewName("admindashboard.jsp");
 		}
 		
@@ -76,8 +82,9 @@ public class ShoeController {
     	ModelAndView mv=new ModelAndView();
          
     	List<Shoe> list=dao.getAll();
-    	
+    	List<OrderredShoe> lst1=dao3.getAllOrder();
     	mv.addObject("list", list);
+    	mv.addObject("orderlist", lst1);
     	mv.setViewName("admindashboard.jsp");
     	
     	
@@ -145,8 +152,9 @@ public class ShoeController {
 		
 		Shoe s1=dao.updateById(s);
        List<Shoe> list=dao.getAll();
-    	
+       List<OrderredShoe> lst1=dao3.getAllOrder();
     	mv.addObject("list", list);
+    	mv.addObject("orderlist", lst1);
 		mv.setViewName("admindashboard.jsp");
     	
     	return mv;
@@ -164,9 +172,9 @@ public class ShoeController {
     	String s=dao.deleteShoe(id);
     	
     	  List<Shoe> list=dao.getAll();
-      	
+    	  List<OrderredShoe> lst1=dao3.getAllOrder();
       	mv.addObject("list", list);
-      	
+      	mv.addObject("orderlist", lst1);
   		mv.setViewName("admindashboard.jsp");
     	
     	return mv;
