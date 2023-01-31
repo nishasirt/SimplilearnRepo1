@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.learn.exceptionhandling.LowBalanceException"/>
-<fullyQualifiedTypeName name="com.learn.exceptionhandling.ATM"/>
-<fullyQualifiedTypeName name="com.wipro.eb.entity.Connection"/>
-<fullyQualifiedTypeName name="com.wipro.eb.exception.InvalidReadingException"/>
-<fullyQualifiedTypeName name="com.wipro.eb.exception.InvalidConnectionException"/>
 <fullyQualifiedTypeName name="com.wipro.eb.service.ConnectionService"/>
 <fullyQualifiedTypeName name="com.wipro.eb.entity.Domestic"/>
 <fullyQualifiedTypeName name="com.wipro.eb.entity.Commercial"/>
@@ -52,7 +47,6 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="org.apache.catalina.User"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.learn.dao.UserDao"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="com.learn.bean.User"/>
@@ -60,4 +54,10 @@
 <fullyQualifiedTypeName name="javax.servlet.jsp.JspWriter"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistry"/>
+<fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistryBuilder"/>
 </qualifiedTypeNameHistroy>
