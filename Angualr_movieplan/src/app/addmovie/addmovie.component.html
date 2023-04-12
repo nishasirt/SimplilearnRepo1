@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="ISO-8859-1">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+	crossorigin="anonymous">
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+	crossorigin="anonymous"></script>
+	
+	<style>  
+.footer {  
+position: fixed;  
+left: 10px;  
+bottom: 5px;  
+right: 10px;   
+width: 98%;  
+background-color: brown;  
+color: white;  
+text-align: center;  
+background-color: brown;
+}  
+</style>
+
+<title>Movie Plan</title>
+
+</head>
+<body style="background-color:white;">
+	<div class="container-fluid"  >
+		<ul class="list-group list-group-horizontal" >
+			<li class="list-group-item"><a routerLink="/admindash" routerLinkActive="active">Home</a></li>
+		   
+			
+			<li class="list-group-item"><a routerLink="/addmovie" routerLinkActive="active">Add Movie</a></li>
+			
+		   <li class="list-group-item" ><a routerLink="/adminlogin" routerLinkActive="active">Logout</a></li>
+			
+		
+		  
+		</ul>
+		
+	  </div>
+
+
+	<div align="center" border="1">
+
+
+
+		<div class="container-fluid" style="background-color: brown;">
+			
+               
+				<table >
+
+					<tr>
+						<td><h2 style="color: white;">Movie Plan&nbsp;
+                            <img   src="/assets/movicon.png"  height="60"  width="60"  />
+                        </h2></td>
+
+
+						<td></td>
+					</tr>
+				</table>
+				
+		
+		
+
+
+
+	</div>
+	
+	
+	<div  align="center">
+	
+        <br>
+	<h2>Add Movie</h2>
+	
+	<table >
+	
+	     
+
+        <tr><td>Movie Name :</td><td><input type="text" placeholder="Enter Movie Name"   class="form-control" [(ngModel)]="movie.moviname" aria-label="" aria-describedby="basic-addon1"></td></tr>
+        <tr><td>Movie Price :</td><td><input type="text" placeholder="Enter Movie Price"  name="movprice" class="form-control" [(ngModel)]="movie.price" aria-label="" aria-describedby="basic-addon1"></td></tr>
+        <tr><td>Movie Category :</td><td><input type="text" placeholder="Enter Movie Category"  name="movcate" class="form-control" [(ngModel)]="movie.category" aria-label="" aria-describedby="basic-addon1"></td></tr>
+        <tr><td>Show date :</td><td><input type="text" name="date" placeholder="Enter date" class="form-control"   [(ngModel)]="movie.showdate" aria-label="" aria-describedby="basic-addon1"></td></tr>
+        <tr><td>Show Time :</td><td><input type="text" name="time" placeholder="Enter Time" class="form-control"  [(ngModel)]="movie.showime" aria-label="" aria-describedby="basic-addon1"></td></tr>
+        <tr><td>Show Locatoion :</td><td><input type="text" name="loc" placeholder="Enter Location" class="form-control"   [(ngModel)]="movie.theaterLoc" aria-label="" aria-describedby="basic-addon1"></td></tr>
+        <tr><td>Image :</td><td><input type="text" name="img" placeholder="Enter Image path" class="form-control"   [(ngModel)]="movie.imageurl" aria-label="" aria-describedby="basic-addon1"></td></tr>
+        <tr><td></td><td colspan="1"><input type="submit" (click)="AddNow()" value="Add" class="btn btn-primary"></td></tr>
+       </table>
+
+
+</div>
+<h5 style="color: red;">{{msg}}</h5>
+<div  class="footer"  >@Copyright by Nisha Chouhan </div>
+
+</div></body>
+</html>

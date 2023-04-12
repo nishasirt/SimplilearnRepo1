@@ -1,0 +1,39 @@
+package com.ex;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Stream1 {
+	
+	public static void main(String[] args) {
+		List<String> strList = Arrays.asList("abc", "", "bcd", "", "defg", "jk","");
+		long count = strList.stream().filter(x->x.isEmpty()).count();
+		System.out.println(count);
+		
+		
+		long c1=strList.stream().filter(x->x.length()>2).count();
+		
+		System.out.println(c1);
+
+		
+		
+		long c2=strList.stream().filter(x->x.startsWith("a")).count();
+		System.out.println(c2);
+		
+		
+		
+		List<String>  ll=strList.stream().filter(x->!x.isEmpty()).collect(Collectors.toList());
+		
+		ll.stream().forEach(e->
+		   System.out.println(e)
+				);
+		
+		List<String>  ll1=strList.stream().filter(x->x.length()>2).collect(Collectors.toList());
+		ll1.stream().forEach(e->
+		   System.out.println(e)
+				);
+		
+	}
+
+}
